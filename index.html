@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <Strong>Dear Chalissa.</Strong>
+                        <p>Hai chal! apakabar, semoga sehat selalu yaa, minal aidzin walfaizin, selamat hari lebaran yaa, chalissa aku mau jujur soal perasaan aku, can we start over again chal? aku tau kamu kecewa sama aku, tapi aku janji aku bakal lebih baik chal, aku tau mungkin terdengar egois, kemarin aku belum bisa bersikap dengan baik dan belum bisa berpikir jernih, aku mau minta maaf soal sifat aku kemarin ke kamu boleh kita ngobrol dulu ya? menurut aku ini masih ada yang belum beres chal boleh kita diskusiin dulu dengan kepala dingin ya? iloveu somuch chalissa.</p>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+
+    <script>
+        const envelope = document.querySelector(".envelope-wrapper");
+        const heart = document.querySelector(".heart");
+        heart.addEventListener("click", ()=>{
+            envelope.classList.toggle("flap")
+        })
+    </script>
+</body>
+</html>
